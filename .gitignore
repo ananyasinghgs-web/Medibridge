@@ -1,0 +1,78 @@
+# ============================================================
+# MediBridge — Root .gitignore
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+env/
+
+# ---------- Databases ----------
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ---------- Secrets & Environment ----------
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+*.credentials
+
+# ---------- Uploaded files (user data) ----------
+backend/uploads/
+
+# ---------- Node / Frontend ----------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ---------- Build & Distribution ----------
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ---------- IDE & Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Testing & Coverage ----------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- OS ----------
+*.tmp
+*.bak
+*.backup*
+
+# ---------- Sample / generated PDFs ----------
+sample_test_report.pdf
+

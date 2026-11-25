@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 52" width="240" height="52" fill="none">
+  <defs>
+    <linearGradient id="mb-full-bridge" x1="4" y1="42" x2="44" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="60%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(4, 2)">
+    <circle cx="9" cy="34" r="4" fill="#0D9488" />
+    <circle cx="39" cy="34" r="4" fill="#0F2744" />
+    <path d="M 9 34 C 9 17, 39 17, 39 34" stroke="url(#mb-full-bridge)" stroke-width="4" stroke-linecap="round" fill="none" />
+    <rect x="21.5" y="6" width="5" height="15" rx="2.5" fill="#0F2744" />
+    <rect x="16.5" y="11" width="15" height="5" rx="2.5" fill="#0F2744" />
+    <circle cx="24" cy="21.5" r="2" fill="#14B8A6" />
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <text x="60" y="29" font-size="24" font-weight="800" fill="#0F2744" letter-spacing="-0.03em">Medi</text>
+    <text x="117" y="29" font-size="24" font-weight="600" fill="#0D9488" letter-spacing="-0.02em">Bridge</text>
+    <text x="61" y="42" font-size="8.5" font-weight="600" fill="#64748B" letter-spacing="0.04em">CONNECTING CARE. SIMPLIFYING HEALTH.</text>
+  </g>
+</svg>
+
