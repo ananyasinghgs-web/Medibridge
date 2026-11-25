@@ -21,8 +21,7 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan
 )
-
-#cors_origins = os.getenv(
+cors_origins = os.getenv(
     "CORS_ORIGINS",
     "http://localhost:3000,http://127.0.0.1:3000"
 )
